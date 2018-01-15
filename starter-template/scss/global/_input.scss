@@ -1,0 +1,33 @@
+.input {
+  background-color: transparent;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  width: 100%;
+  cursor:text;
+
+  &--labels {
+  background-color: $color-white;
+  border: 1px solid $color-gray-4;
+  color: $color-gray-6;
+  border-radius: 3px;
+  padding: 0 7px;
+  margin-right: 8px;
+  line-height: 25px;
+
+  @include placeholder {
+    color: $color-gray-4;
+  }
+
+  }
+}
+.list-label{
+  font-weight: 600;
+  color: $color-gray-8;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+}

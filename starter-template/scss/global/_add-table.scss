@@ -1,0 +1,55 @@
+.container {
+  background-color: transparent;
+  width: 300px;
+
+}
+
+.header {
+background-color: $color-white;
+border-radius: 3px 3px 0 0;
+display: block;
+border: 1px solid $color-gray-7;
+padding: 10px 11px;
+font-weight: 600;
+color: $color-gray-6;
+
+
+}
+
+.body {
+background-color: $color-white;
+display: flex;
+border-radius: 0;
+border: 1px solid $color-gray-7;
+border-top: 0;
+padding: 8px 11px;
+font-weight: 600;
+color: $color-gray-6;
+
+}
+
+.footer {
+  background-color: $color-white;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 0;
+  border: 1px solid $color-gray-7;
+  border-top: 0;
+  padding: 6px 11px;
+
+
+
+  .btn {
+    visibility: hidden;
+  }
+
+
+  &:hover {
+    .btn {
+      visibility: visible;
+      
+    }
+  }
+
+
+}

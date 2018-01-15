@@ -10,11 +10,13 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    background-color: $color-gray;
 }
 
 body {
     font-size: $base-font-size;
     line-height: $base-line-height;
+    font-family: 'Roboto', sans-serif;
 
     // To prevent the iPhone and iPad from inflating fonts
     @include respond-to(1024, max) {

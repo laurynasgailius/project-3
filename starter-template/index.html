@@ -4,56 +4,37 @@
 
     <title>Title</title>
     <meta name="description" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="content/styles/site-styles.css" rel="stylesheet" type="text/css"/>
 
-    <script type="text/javascript">
-        (function () {
-            'use strict';
-            var el, head;
-            el = document.createElement('script');
-            el.type = 'text/javascript';
-            el.async = true;
-            el.setAttribute("data-main", "scripts/main");
-            el.src = 'scripts/require.js';
-            head = document.getElementsByTagName('script')[0];
-            head.parentNode.insertBefore(el, head);
-        }());
-    </script>
-
-    <style type="text/css">
-        body {
-            font-family: georgia, sans-serif;
-            font-size: 24px;
-            line-height: 1.9;
-            padding: 50px;
-        }
-
-        h1 {
-            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-            font-size: 150px;
-            line-height: 1.0;
-            margin: 0.25em 0
-        }
-    </style>
 
 </head>
 <body>
 
-<noscript>
-    <div class="noscript-message">Javascript is disabled on your browser. Please enable Javascript to use full functionality of this site.</div>
-</noscript>
+  <div class="container">
 
-<h1>Hello You</h1>
-<p>Before diving in to your project, there are a few things you need to know:</p>
-<ul>
-    <li><a href="https://github.com/devbridge/Front-End-Toolkit/wiki/Front-End-Bible" target="_blank">Front-end
-        Bible</a> - Set of rules and guidelines to help you to make a better and more cleaner web page.
-    </li>
-    <li><a href="https://github.com/devbridge/Front-End-Toolkit/wiki/Layout-samples" target="_blank">HTML Layout
-        samples</a> - The four most used layout templates.
-    </li>
-    <li><a href="https://github.com/devbridge/Styleguide" target="_blank">Styleguide</a> - Project Styleguide.
-    </li>
-</ul>
+    <div class="header">
+      <label>Labels</label>
+    </div>
+
+    <form class="body">
+      <input type="text" name="labels" class="input input--labels" placeholder="New label" />
+      <button class="btn btn--prime">Add</button>
+    </form>
+
+    <div class="footer">
+      <div class="list-label">Label 1</div>
+      <button class="btn btn--delete"></button>
+    </div>
+
+    <div class="footer">
+      <div class="list-label">Label 2</div>
+      <button class="btn btn--delete"></button>
+    </div>
+
+</div>
+
+
+
 </body>
 </html>

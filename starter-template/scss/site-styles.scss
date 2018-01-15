@@ -19,7 +19,10 @@
 //@import 'plugins/slick';
 
 // Global modules - modules shared between multiple projects (e.g. admin and public sites)
-@import 'global/forms';
+@import 'global/forms',
+				'global/buttons',
+				'global/add-table',
+				'global/input';
 		//'global/tables',
 		//'global/modal';
 
